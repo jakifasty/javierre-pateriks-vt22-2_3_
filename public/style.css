@@ -1,0 +1,105 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+
+.right{
+    text-align:  right;    
+}
+
+.left{
+    text-align:  left;    
+}
+
+@media (max-width: 12450px){ 
+    .flexParent{
+        display:        flex;
+        text-align:  sidebar;
+}
+
+.sidebar{
+    flex:   1;
+    width: 10px;
+    padding: 20px;
+    border: 1px solid lightblue;
+    background-color: white;
+   
+}
+
+.mainContent{
+    flex:  3;  
+}
+
+.searchResults{
+    text-align:  center;
+    vertical-align:   baseline;
+    display: inline-block;
+    background-color: lawngreen;
+
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.detailsColumn{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    flex: 50%;
+    background-color: lawngreen;
+}
+
+.detailsRow: after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebarColumn-left{
+
+    content: "";
+    display: flex;
+    clear: both;
+    background-color: greenyellow;
+
+    margin: 5px;
+    padding: 10px;
+}
+
+.border {
+        
+     border-style:  solid;
+     border-color:  #287EC7;
+}
+
+.imageGIF{
+    height:  100;
+    width:  100;
+}
+
+.container{
+    display:  flex;
+    flex-wrap: wrap;
+    font-size:  30px;
+}
+
+.itemToLeft{
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 10px;
+    flex: 30%;
+}
+
+.itemToRight{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 70%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
