@@ -1,4 +1,7 @@
-# npm-tutorial
+# javierre-pateriks-vt22-2_3
+Web application in React.js consisting in a dishes view where the user can filter, select, choose and read information about dishes from an API database in Firebase
+
+npm-tutorial
 tutorial version 5
 
 1. install node, recent version (e.g. 17)
